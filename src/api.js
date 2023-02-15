@@ -7,8 +7,9 @@ const io = require('socket.io')(server, {cors: {origin: "*"}});
 const helperFunctions = require('./helper');
 
 const router = express.Router();
+port = 3001;
 
-server.listen(3001, () => {
+server.listen(process.env.PORT || port, () => {
     console.log("Local server is running!");
 });
 
