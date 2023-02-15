@@ -1,0 +1,7 @@
+### GET /
+GET http://localhost:3001/
+
+### connect to netlify backend
+# GET http://localhost:9000/.netlify/functions/api
+
+###
